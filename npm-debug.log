@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\supfn\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sortablejs',
+1 verbose cli   '--save' ]
+2 info using npm@4.0.3
+3 info using node@v6.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sortablejs
+8 silly fetchNamedPackageData sortablejs
+9 silly mapToRegistry name sortablejs
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'sortablejs',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'sortablejs',
+12 silly mapToRegistry   name: 'sortablejs',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/sortablejs
+14 verbose request uri https://registry.npm.taobao.org/sortablejs
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:44:55
+17 verbose request id 4581ae80b199d45a
+18 verbose etag "a378-V06/lzoAmhkIlI90NLguQJBlQJ0"
+19 http request GET https://registry.npm.taobao.org/sortablejs
+20 http 304 https://registry.npm.taobao.org/sortablejs
+21 verbose headers { date: 'Mon, 15 May 2017 03:44:54 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   etag: '"a378-V06/lzoAmhkIlI90NLguQJBlQJ0"',
+21 verbose headers   'x-readtime': '44' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 15 May 2017 03:44:54 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-current-requests': '1',
+22 silly get     etag: '"a378-V06/lzoAmhkIlI90NLguQJBlQJ0"',
+22 silly get     'x-readtime': '44' } ]
+23 verbose etag https://registry.npm.taobao.org/sortablejs from cache
+24 verbose get saving sortablejs to C:\Users\supfn\AppData\Roaming\npm-cache\registry.npm.taobao.org\sortablejs\.cache.json
+25 verbose correctMkdir C:\Users\supfn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: Refusing to install package with name "sortablejs" under a package
+42 verbose stack also called "sortablejs". Did you name your project the same
+42 verbose stack as the dependency you're installing?
+42 verbose stack
+42 verbose stack For more information, see:
+42 verbose stack     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+42 verbose stack     at checkSelf (C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:53:14)
+42 verbose stack     at Array.<anonymous> (C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+42 verbose stack     at LOOP (C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+42 verbose stack     at chain (C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+42 verbose stack     at C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:16:5
+42 verbose stack     at C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+42 verbose stack     at Array.forEach (native)
+42 verbose stack     at C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+42 verbose stack     at Array.forEach (native)
+42 verbose stack     at asyncMap (C:\Users\supfn\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+43 verbose cwd C:\Users\supfn\Downloads\Sortable-master\Sortable-master
+44 error Windows_NT 6.1.7601
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\supfn\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "sortablejs" "--save"
+46 error node v6.4.0
+47 error npm  v4.0.3
+48 error code ENOSELF
+49 error Refusing to install package with name "sortablejs" under a package
+49 error also called "sortablejs". Did you name your project the same
+49 error as the dependency you're installing?
+49 error
+49 error For more information, see:
+49 error     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
